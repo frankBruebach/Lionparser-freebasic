@@ -1,0 +1,12 @@
+hello, I have made last weeks a big update for my parser, "lionparser", now it's getting more a little interpreter.
+some example I have add to below how to make the parser run.
+only lower case input it's possible at the moment for console modus.
+you can load simple files too with #include "test.bas" or "test.bi".
+functions are running also, zstring handling, wstring, integer, double, long, string and much more...
+if you like this project you can test the lionparser.
+
+the lionparser.exe file for 32-bit and 64-bit you can find at github here and source code too.
+
+
+
+thanks, loewenherz

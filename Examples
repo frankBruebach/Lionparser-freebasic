@@ -1,0 +1,67 @@
+' lionparser.bas example they are running at the moment (november 2025)
+
+[code]
+dim as long v=200
+dim as string st="Hello freebasic " + str(v)
+print st
+run
+
+dim as integer a,b,c
+a=20
+b=40
+c=a*b
+dim as string s="Hello earth " + str(c)
+print s
+run
+
+dim as integer x
+x = 123
+dim as integer ptr p
+p = @x
+print *p
+run
+
+dim as zstring name = "Test"
+dim as zstring ptr p
+p = @name
+print *p
+run
+
+dim as integer a=10
+dim as integer b=20
+dim as integer c=a*b
+print c
+run
+
+dim as zstring*15 abc="Hello my world"
+print abc
+print len(abc)
+print sizeof(abc)
+run
+
+function test(a as integer, b as integer) as integer
+return a*b
+endfunction
+print test(2,4)
+run
+
+dim as double c=1.2345
+print c
+run
+
+#define abc 100
+print abc
+run
+
+#include "1a-calc.bas"
+run
+' resullt: 200
+
+1a-calc.bas ' file to load
+Dim As Integer a=10
+Dim As Integer b=20
+Dim As Integer c=a*b
+Print c
+sleep
+
+[/code]

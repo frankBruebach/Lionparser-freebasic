@@ -1,0 +1,25 @@
+c=2 + 3 * 10 % 4 
+print c
+run
+
+const idcbutton = 1001
+print idcbutton
+run
+
+dim as long a=20
+dim as integer b=30
+dim as long c=a*b*1/2 
+print c 
+run
+
+dim as string st      = "Hello1"
+dim as zstring*7 z = "Hello2"
+print st
+print z
+run
+
+print "nChars(st)      " + len(st)
+print "sizeOf(String) " + SizeOf(st)
+print "nChars(z)      " + len(z)
+print "sizeOf(z)    " + SizeOf(z)
+run

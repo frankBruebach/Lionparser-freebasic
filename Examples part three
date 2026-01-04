@@ -1,0 +1,65 @@
+examples part three 
+
+hello, I have made a little update of my lionparser (mini interpreter)
+32-bit and 64-bit tested.  compiled with freebasic 1.10.1.  win 10/11.
+new built in feature ulong and longInt datatypes. 
+fixed features: for while wend if else elseif endif etc..
+
+regards, loewenherz
+
+these examples are working now:
+
+
+' 1)
+Dim as integer x 
+x= 2
+if x = 1 then
+    print "x=1"
+elseif x = 2 then
+    print "x=2"
+elseif x = 3 then
+    print "x=3"
+else
+    print "x unknown"
+endif
+print "fertig"
+for i = 1 To 10
+    Print i
+next i
+Print i
+Run
+
+
+
+' 2)
+
+dim as integer x 
+x = 0
+while x < 3
+    if x = 1 then
+        print "x=1 inside while"
+    elseif x = 2 then
+        print "x=2 inside while"
+    else
+        print "x=other inside while"
+    endif
+    x = x + 1
+wend
+run
+
+
+
+dim as integer i
+for i = 1 to 3
+    print "for loop i=" + i
+next
+run
+
+'
+'3)
+
+ function multi(a as integer, b as integer) as integer
+ return a * b
+ endfunction
+ print multi(4,6) 
+ run 
